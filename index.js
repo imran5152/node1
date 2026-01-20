@@ -4,6 +4,7 @@ const port = 3000
 
 app.get('/', (req, res) => {
   res.send('Hello Codingwale Vaijapur - Hello')
+   res.send('deploy successfully')
 })
 
 app.listen(port,'0.0.0.0', () => {
